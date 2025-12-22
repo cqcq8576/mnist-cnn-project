@@ -63,7 +63,7 @@ class MNISTDataLoader:
 
         return self
     
-    def get_data_loader(self):
+    def get_data_loaders(self):
         '''创建数据加载方法'''
         if self.train_dataset is None:
             raise ValueError('请先调用load_data()加载器')
@@ -142,7 +142,7 @@ if __name__ =='__main__':
     for key,value in info.items():
         print(f'{key}:{value}')
     
-    train_loader,val_loader,test_loader=mnist_loader.get_data_loader()
+    train_loader,val_loader,test_loader=mnist_loader.get_data_loaders()
 
     images,labels=next(iter(train_loader))
     print(f'\n一个batch的形状')

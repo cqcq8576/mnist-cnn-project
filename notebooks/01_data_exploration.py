@@ -62,7 +62,7 @@ plot_pixel_statistics(mnist_loader.train_dataset, num_samples=1000)
 # 6. 可视化一个Batch
 print("\n【步骤6】可视化数据批次")
 print("-" * 60)
-train_loader, val_loader, test_loader = mnist_loader. get_data_loader()
+train_loader, val_loader, test_loader = mnist_loader.get_data_loaders()
 visualize_batch(train_loader, title="训练集Batch示例 (Batch Size=64)")
 
 # 7. 总结
