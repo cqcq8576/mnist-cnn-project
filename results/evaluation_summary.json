@@ -1,0 +1,66 @@
+{
+    "test_accuracy": 99.23,
+    "total_samples": 10000,
+    "correct_predictions": 9923,
+    "wrong_predictions": 77,
+    "per_class_accuracy": {
+        "0": {
+            "total": 980,
+            "correct": 978,
+            "accuracy": 99.79591836734694
+        },
+        "1": {
+            "total": 1135,
+            "correct": 1132,
+            "accuracy": 99.73568281938326
+        },
+        "2": {
+            "total": 1032,
+            "correct": 1024,
+            "accuracy": 99.2248062015504
+        },
+        "3": {
+            "total": 1010,
+            "correct": 1007,
+            "accuracy": 99.70297029702971
+        },
+        "4": {
+            "total": 982,
+            "correct": 976,
+            "accuracy": 99.38900203665987
+        },
+        "5": {
+            "total": 892,
+            "correct": 882,
+            "accuracy": 98.87892376681614
+        },
+        "6": {
+            "total": 958,
+            "correct": 951,
+            "accuracy": 99.26931106471817
+        },
+        "7": {
+            "total": 1028,
+            "correct": 1024,
+            "accuracy": 99.61089494163424
+        },
+        "8": {
+            "total": 974,
+            "correct": 964,
+            "accuracy": 98.97330595482546
+        },
+        "9": {
+            "total": 1009,
+            "correct": 985,
+            "accuracy": 97.62140733399406
+        }
+    },
+    "best_class": {
+        "digit": 0,
+        "accuracy": 99.79591836734694
+    },
+    "worst_class": {
+        "digit": 9,
+        "accuracy": 97.62140733399406
+    }
+}
